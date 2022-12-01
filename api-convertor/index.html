@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Currency Convertor</title>
+</head>
+<body>
+    <main>
+        <h1>Valyuta Çeviricisi</h1>
+
+
+        <div class="left_and_right">
+
+            <div class="leftside">
+                <p class="leftside_p main_p">Məndə var </p>
+                <ul class="currencies">
+                    <li class="rub">
+                        <button class="currency_elements_left rub_btn active"> RUB </button>
+                    </li>
+                    <li class="usd">
+                        <button class="currency_elements_left"> USD </button>
+                    </li>
+                    <li class="eur">
+                        <button class="currency_elements_left"> EUR </button>
+                    </li>
+                    <li class="azn">
+                        <button class="currency_elements_left azn_btn"> AZN </button>
+                    </li>
+                </ul>
+
+                <div class="calculator_currency">
+                    <input class=" input_currency" type="text" placeholder="0.000">
+
+                    <p class="current-txt"></p>
+                </div>
+            </div>
+
+
+
+            <div class="rightside">
+                <p class="rightside_p main_p">Almaq istəyirəm</p>
+                <ul class="currencies">
+                    <li class="rub">
+                        <button class="currency_elements_right rub_btn"> RUB </button>
+                    </li>
+                    <li class="usd">
+                        <button class="currency_elements_right active"> USD </button>
+                    </li>
+                    <li class="eur">
+                        <button class="currency_elements_right"> EUR </button>
+                    </li>
+                    <li class="azn">
+                        <button class="currency_elements_right azn_btn"> AZN </button>
+                    </li>
+                </ul>
+
+                <div class="calculator_currency">
+
+                    <input type="text" class="want">
+                    <p class="current-txt"></p>
+                </div>
+            </div>
+        </div>
+
+
+        </div>
+
+    </main>
+<script src="./js/app.js"></script>
+</body>
+</html>
